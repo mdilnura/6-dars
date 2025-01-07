@@ -16,9 +16,16 @@ body {
 }
 a {
   text-decoration: none;
-  color: #ffffff;
 }
 ol,
 ul {
   list-style: none;
+}
+
+:root {
+  @include theme(dark);
+}
+
+.light {
+  @include theme(light);
 }
